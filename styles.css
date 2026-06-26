@@ -1,0 +1,62 @@
+nav{
+    text-align: center;
+}
+
+
+ .featured-reviews {
+    color: red;
+}
+
+
+.latest-news {
+    color: rgb(0, 184, 92);
+}
+
+
+.tech-corner {
+    color: rgb(157, 0, 255);
+}
+
+
+.featured-image {
+
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+
+.game-image {
+
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+
+.tech-image {
+
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+ h1{
+    text-align: center;
+    color: blue;
+    font-size: 45px;
+
+ }
+ 
+
+ a {
+    margin: 28px;
+    font-size: 20px;
+
+ }
+
+
+
