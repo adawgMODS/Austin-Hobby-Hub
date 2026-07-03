@@ -1,20 +1,32 @@
+body{
+    background-color: rgb(205, 205, 205);
+    line-height: 1.5;
+
+}
+
+.logo{
+        display:block;
+        width:220px;
+        height: auto;
+        margin: 20px auto;
+        border: 2px solid black;
+}
+
+
 nav{
     text-align: center;
 }
 
-
  .featured-reviews {
-    color: red;
+    color:black;
 }
-
 
 .latest-news {
-    color: rgb(0, 184, 92);
+    color: black;
 }
 
-
 .tech-corner {
-    color: rgb(157, 0, 255);
+    color: black;
 }
 
 
@@ -26,7 +38,6 @@ nav{
     padding: 5px;
 }
 
-
 .game-image {
 
     width: 300px;
@@ -35,14 +46,18 @@ nav{
     padding: 5px;
 }
 
-
 .tech-image {
-
     width: 300px;
     height: 200px;
     border: 2px solid black;
     padding: 5px;
 }
+
+
+
+ footer{
+    color: black;
+ }
 
  h1{
     text-align: center;
@@ -50,12 +65,33 @@ nav{
     font-size: 45px;
 
  }
- 
+
+ h2{
+
+    font-size: 40px;
+    color:rgb(0, 0, 55);
+
+ }
+
+  h3{
+    font-size: 25px;
+    margin-top:20px;
+ }
+
+ ul{
+    font-size:25px;    
+}
+
+ p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+ }
 
  a {
-    margin: 28px;
+   font-family: Arial, Helvetica, sans-serif;
+    margin: 18px;
     font-size: 20px;
-
+    font-weight: 900;
  }
 
 
