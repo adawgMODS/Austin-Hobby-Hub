@@ -7,10 +7,9 @@
     <meta name="description"
         content="A-Games & More features gaming reviews, gaming news, and technology updates.">
 
-    <title>Reviews | A-Games & More</title>
+    <title>Contact | A-Games & More</title>
     <link rel="stylesheet" href="styles.css">
     </head>
-
     <body>
         <header>
         <nav>
@@ -28,80 +27,35 @@
 
 
 
+        <h1>Contact Us</h1>
 
-        <h1>PC Game Reviews</h1>
 
         </header>
         
-
-
-    <main>
-        <section>
-
-            <h2>Featured PC Game Reviews</h2>
-            <p>Check out my favorite game reviews below.</p>
-        </section>
-
-        <section>
-            <h2>The Elder Scrolls IV: Oblivion Remastered</h2>
-            <p>Oblivion Remastered takes a game that was already amazing and makes it feel brand new.
-            I played the original when it first came out in 2006, so seeing the updated graphics and modernized menus is incredible.</p>
-
-            <p>Since it's been so long, it almost feels like I'm experiencing the game for the first time again, while still getting that nostalgic 
-            feeling reminds me of why I fell in love with the game love it in the first place.</p>
-        </section>
-
-        <section>
-            <h2>Red Dead Redemption 2</h2>
-            <p>Red Dead Redemption 2 is one of the most impressive games I've ever played because of its realism. The wildlife, environments, characters, 
-            and the countless ways you can approach different situations make the world feel alive.</p>
-
-            <p>Combined with an incredible story, beautiful graphics, 
-            a massive open world, and excellent optimization on PC at 1080p, it's easily one of my favorite games to get lost in.</p>
-
-        </section>
-
-        <section>
-            <h2>Subnautica 2</h2>
-            <p>I've spent countless hours surviving, exploring, and building in both the original Subnautica and Below Zero, so I was excited to jump into Subnautica 2.
-             Even though it's still in Early Access and there's a lot more content to come, my first impression has been, "I'm playing an amazing game that isn't quite finished yet."</p>
-             
-             <p>As the developers continue building on what they've started, I think it has the potential to be far better than the original.</p>
+        <main>
             
-             <p>My overall rating took a slight hit, but that's expected with any Early Access game. 
-            I have no doubt that in a year or two, the rating will be a 5/5.
-            </p>
+        <section>
+            <h2>Contact A-Games & More</h2>
+            <p>We'd love to hear your feedback! Please fill out the form below.</p>
+            <form id="contact-form">
+
+                <label for="name">Display Name:</label>
+                <input type="text" id="name">
+
+                <label for="favgame">Favorite Game</label>
+                <input type="text" id="favgame">
+
+                <label for="gamerating">Rating 1-5</label>
+                <input type="text" id="gamerating">
+
+                <label for="comment">Comment:</label>
+                <textarea id="comment"></textarea>
+
+                <button type="button" onclick="submitForm()">Submit</button>
+
+
+            </form>
         </section>
-
-        <table>
-            <tr>
-            
-            <th>Game</th>
-            <th>Platform</th>
-            <th>My Rating</th>
-            </tr>
-            
-            <tr>
-            <td>Oblivion Remastered</td>
-            <td>PC</td>
-            <td>5/5</td>
-        </tr>
-
-        <tr>
-        <td>Red Dead Redemption 2</td>
-        <td>PC</td>
-        <td>5/5</td>
-        </tr>
-
-        <tr>
-            <td>Subnautica 2</td>
-            <td>PC</td>
-            <td>3/5</td>
-        </tr>
-        
-        </table>
-
-
 
         </main>
         
@@ -112,6 +66,9 @@
         <p>&copy; 2026 A-Games & More.</p>
     </footer>
 
+    <script src="script.js"></script>
+
     </body>
+    
 
     </html>
